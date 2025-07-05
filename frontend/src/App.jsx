@@ -7,7 +7,7 @@ function App() {
 
     useEffect(() => {
         // Fetch IP from your backend (update if using port-forwarded URL)
-        fetch('http://localhost:3001/get-ip')
+        fetch('http://156.204.8.147:3001/get-ip')
             .then(res => res.json())
             .then(data => setIp(data.ip));
 
